@@ -87,7 +87,8 @@ if test_data.count() > 0:
     hasil_test.select("features", "gaji", "prediction").show(truncate=False)
 
 
-### LATIHAN 2: Mengubah Jumlah Cluster K-Means dari 3 ke 2
+```
+## LATIHAN 2: Mengubah Jumlah Cluster K-Means dari 3 ke 2
 ```bash
 from pyspark.ml.clustering import KMeans
 from pyspark.ml.feature import VectorAssembler
